@@ -1,0 +1,34 @@
+This file contains message digests of all files listed in MANIFEST,
+signed via the Module::Signature module, version 0.70.
+
+To verify the content in this distribution, first make sure you have
+Module::Signature installed, then type:
+
+    % cpansign -v
+
+It will check each file's integrity, as well as the signature's
+validity.  If "==> Signature verified OK! <==" is not displayed,
+the distribution may already have been compromised, and you should
+not run its Makefile.PL or Build.PL.
+
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+SHA1 2da34965d57564bca5ae2d7c6a369d4c8b7cb521 Changes
+SHA1 47870123f373f5185d6893cb98bf06a8a05510aa LICENSE
+SHA1 85d1db30d1fe54641bbfab6f9829bcf9e565f514 MANIFEST
+SHA1 2da7530b581a2ebe532673c9585c52f748ba7a27 META.json
+SHA1 61e2fc59761071e55fa7e2e5f8faef4c1ed64714 META.yml
+SHA1 460b750c281127e53f5ee380a3e2be8272168dc8 Makefile.PL
+SHA1 1cd04fbdc727f646b2d0a8ea18e07e533e5566e8 README
+SHA1 de4655db7fd2d279efb2b9f7019c331c0d8ca571 dist.ini
+SHA1 fa11853d16b22160fbad35427bdbc031eedef69a doap.xml
+SHA1 084172c2734c1a0d446fa0a805af1265c6b79f6b lib/Dist/Zilla/Plugin/DOAP.pm
+SHA1 0c72f5ad54a1258682f39197b7d86337cdbb29eb t/load.t
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.14 (GNU/Linux)
+
+iEYEARECAAYFAlMiOpQACgkQzr+BKGoqfTlxZwCeOI7thaeWmeCX7+x8tWtUyy5/
+ElwAoJFQYvIMuSvTvu8bSDMFCMsqieOa
+=POOu
+-----END PGP SIGNATURE-----

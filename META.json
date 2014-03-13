@@ -1,0 +1,51 @@
+{
+   "abstract" : "create a doap.xml file for your project",
+   "author" : [
+      "Toby Inkster (TOBYINK) <tobyink@cpan.org>"
+   ],
+   "dynamic_config" : 0,
+   "generated_by" : "Dist::Zilla version 5.013, CPAN::Meta::Converter version 2.120921",
+   "license" : [
+      "perl_5"
+   ],
+   "meta-spec" : {
+      "url" : "http://search.cpan.org/perldoc?CPAN::Meta::Spec",
+      "version" : "2"
+   },
+   "name" : "Dist-Zilla-Plugin-DOAP",
+   "prereqs" : {
+      "configure" : {
+         "requires" : {
+            "ExtUtils::MakeMaker" : "6.30"
+         }
+      },
+      "runtime" : {
+         "requires" : {
+            "CPAN::Changes" : "0",
+            "CPAN::Meta" : "0",
+            "Dist::Zilla" : "5",
+            "RDF::DOAP::Lite" : "0",
+            "perl" : "5.010"
+         }
+      },
+      "test" : {
+         "requires" : {
+            "Test::More" : "0.96"
+         }
+      }
+   },
+   "release_status" : "stable",
+   "resources" : {
+      "bugtracker" : {
+         "web" : "http://rt.cpan.org/NoAuth/Bugs.html?Dist=Dist-Zilla-Plugin-DOAP"
+      },
+      "homepage" : "https://metacpan.org/release/Dist-Zilla-Plugin-DOAP",
+      "repository" : {
+         "type" : "git",
+         "url" : "git://github.com/tobyink/p5-dist-zilla-plugin-doap.git",
+         "web" : "https://github.com/tobyink/p5-dist-zilla-plugin-doap"
+      }
+   },
+   "version" : "0.001"
+}
+
