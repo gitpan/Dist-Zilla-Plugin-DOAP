@@ -30,5 +30,11 @@
       <dc:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2014-03-13</dc:issued>
     </Version>
   </release>
+  <release>
+    <Version>
+      <revision rdf:datatype="http://www.w3.org/2001/XMLSchema#string">0.002</revision>
+      <dc:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2014-03-14</dc:issued>
+    </Version>
+  </release>
   <programming-language>Perl</programming-language>
 </Project>

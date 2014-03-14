@@ -23,4 +23,4 @@ resources:
   bugtracker: http://rt.cpan.org/NoAuth/Bugs.html?Dist=Dist-Zilla-Plugin-DOAP
   homepage: https://metacpan.org/release/Dist-Zilla-Plugin-DOAP
   repository: git://github.com/tobyink/p5-dist-zilla-plugin-doap.git
-version: '0.001'
+version: '0.002'

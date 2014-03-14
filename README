@@ -31,7 +31,8 @@ DESCRIPTION
     several other software repositories, notably the Python Package Index.*
 
   Configuration
-    This plugin has two settings that you can tweak in your "dist.ini" file:
+    This plugin has three settings that you can tweak in your "dist.ini"
+    file:
 
     "xml_filename"
         The filename for DOAP output, serialized as XML. Defaults to
@@ -41,6 +42,10 @@ DESCRIPTION
         The filename for DOAP output, serialized in the slightly more
         readable Turtle format. Defaults to undef. Set this to a filename to
         output some Turtle.
+
+    "process_changes"
+        A boolean indicating whether your "Changes" file should be processed
+        to generate a release history. Defaults to 0 (no).
 
   Hints
     For the most part, everything should "just work". The plugin will figure
